@@ -2,7 +2,7 @@
 
 /**
  * main - prints teh size of various types on the computer it is compiled
- * Return - 0 if exited properly, if not, non-zero
+ * Return: 0 if exited properly, if not, non-zero
  */
 int main(void)
 {
