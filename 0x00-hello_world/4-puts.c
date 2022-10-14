@@ -2,7 +2,7 @@
 
 /**
  *main - should print "Programming is like building a multilingual puzzle"
- *Return - should print 0 if successsful, if not, print non-zero
+ *Return - 0 if successsful, if not, print non-zero
  */
 int main(void)
 {
