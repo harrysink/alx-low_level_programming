@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - assigns a different value to n everytime
  * it is run, and displays it
- * Return - 0 always when successful
+ * Return: Always 0 when successful
  */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 		printf("%d is positive\n", n);
 	else if (n == 0)
 		printf("%d is zero\n", n);
-	else if (n > 0)
+	else if (n < 0)
 		printf("%d is negative\n", n);
 	return (0);
 }
