@@ -6,14 +6,28 @@
  *
  * Return: nothing
  */
-void print_diagonal(int n);
+void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
-		putchar('\n')
-	}
-	
-	int x, y;
+		_putchar('\n');
+	} else
+	{
+		int x, y;
 
-	for (
- 
+		for (x = 0; x < n; x++)
+		{
+			for (y = 0; y < n; y++)
+			{
+				if (x == y)
+				{
+					_putchar('\\');
+				} else if (x < y)
+				{
+					_putchar(' ');
+				}
+			}
+			_putchar('\n');
+		}
+	}
+}
